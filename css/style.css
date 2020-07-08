@@ -1,0 +1,300 @@
+/* Start page Rulz */
+body
+{
+    background-color: #E9EBEE;
+    font-family: Helvetica, Arial, sans-serif;
+    width: 1519.2;
+} 
+.container
+{
+    width: 1100px;
+    margin: auto;
+}
+/* End page Rulz */
+
+/* Start Header */
+.header 
+{
+    background-color: #3b5998;
+    color: #fff;
+    overflow: hidden;
+    height: 88px;
+}
+.header .container .logo span
+{
+    position: absolute;
+    margin-top: 28px;
+    font-size: 40px;
+    font-weight: 900;
+}
+.header .container .nav
+{
+    float: right;
+    margin-top: 15px;
+    margin-right: -25px;
+
+}
+.header .container .nav .right 
+{
+    float: left;
+    margin-left: 15px;
+}
+.header .container .nav .right label
+{
+    font-size: 12px;
+    font-weight: 100;
+}
+.header .container .nav .right input
+{
+    margin-top: 3px;
+    height: 20px;
+}
+.header .container .nav button
+{
+    background-color: #4267b2;
+    margin-top: 20px;
+    margin-left: 15px;
+    color: white;
+    border: 1px solid #29487d ; 
+    padding: 6px 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.header .container .nav a
+{
+    margin-left: 220px;
+    display: block;
+    font-size: 15px;
+    color: #9cb4d8;
+    font-weight: normal;
+    text-decoration: none;
+    margin-top: 2px;
+}
+.header .container .nav a:hover
+{
+    text-decoration: underline;
+}
+/* End Header */
+
+/* Start Left Content */
+.Content 
+{
+    overflow: hidden;
+}
+.Content .container .left-cont
+{
+    width: 50%;
+    float: left;
+}
+.Content .container .left-cont h2
+{
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+}
+.Content .container .left-cont p
+{
+    font-size: 22px;
+    color: #555;
+    position: relative;
+    bottom: 20px;
+}
+.Content .container .left-cont .pic 
+{
+    float: left;
+    border: 1px solid rgb(224, 224, 224);
+    text-align: center;
+    background-color: #fff;
+    width: 160px;
+    height: 205px;
+    position: relative;
+    bottom: 20px;   
+}
+.Content .container .left-cont .pic:last-of-type
+{
+    margin-left: 15px;
+}
+.Content .container .left-cont .pic .image img
+{
+    width: 100%;
+    height: 100%;
+}
+.Content .container .left-cont .pic .spannn
+{
+    position: relative;
+    top: 10px;
+    left: 25px;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.Content .container .left-cont .pic .circle
+{
+   color: white;
+   background-color: rgb(253, 40, 40);
+   border-radius: 50%;
+   padding: 4px 8px;
+   position: relative;
+   top: -165px;
+   right: -46px;
+   font-size: medium;   
+}
+.Content .container .left-cont .pic i
+{
+    position: relative;
+    top: -165px;
+    right: 122px;
+    color: silver;
+    
+}
+.Content .container .left-cont .pic .spa
+{
+    color: #3b5998;
+    position: relative;
+    top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+/* End Left Contet */
+
+/* Start Right Contet */
+.Content .container .right-cont
+{
+    width: 42%;
+    margin-left: 8%;
+    float: right;
+    overflow: hidden;
+}
+.Content .container .right-cont h2
+{
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+}
+.Content .container .right-cont p
+{
+    font-size: 22px;
+    color: #555;
+    position: relative;
+    bottom: 20px;
+}
+.Content .container .right-cont .fifty
+{
+    height: 35px;
+    width: 209px;
+    margin-bottom: 10px;
+    border: 1px solid #bcc7db;
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 5px;
+    border-radius:8px ;
+    text-transform: capitalize;
+    padding: 5px;
+    position: relative;
+    bottom: 15px;
+}
+.Content .container .right-cont .full
+{
+    height: 35px;
+    width: 440px;
+    margin-bottom: 10px;
+    border: 1px solid #bcc7db;
+    font-size: 20px;
+    font-weight: 500;
+    display: block;
+    border-radius:8px ;
+    text-transform: capitalize;
+    padding: 5px;
+    position: relative;
+    bottom: 15px;
+}
+.Content .container .right-cont fieldset
+{
+    border: none;
+    position: relative;
+    left: -12px;
+   
+}
+.Content .container .right-cont .birthday
+{
+    margin-top: 10px;
+}
+.Content .container .right-cont .birthday select
+{
+    text-transform: none;
+    border: 1px solid #d3d5d8;
+    height: 35px;
+    min-width: 55px;
+}
+.Content .container .right-cont fieldset legend
+{
+    font-size: 19px;
+    margin-bottom: 5px;
+    color: #999;
+    font-weight: bold;    
+}
+.Content .container .right-cont .Gender 
+{
+    font-size: 20px;
+    color: #444;
+    cursor: pointer;
+    font-weight: 500;
+}
+.Content .container .right-cont fieldset i
+{
+    color: #666;
+    padding: 5px;
+    font-size: 19px;
+    position: relative;
+    bottom: 6px;
+}
+.Content .container .right-cont .Gender input
+{
+    margin-left: 10px;
+    height: 18px;
+    width: 14px;
+}
+.Content .container .right-cont .text
+{
+    font-size: 14px;
+    line-height: 1.7;
+    width: 400px;
+}
+.Content .container .right-cont .text span
+{
+    color: #3b5998;
+}
+.Content .container .right-cont button
+{
+    padding: 12px 80px;
+    background-color: #5B9047;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 7px;
+    border: 1px solid #464950;
+    margin-bottom: 10px;
+    position: relative;
+    bottom: 5px;
+}
+.Content .container .right-cont hr 
+{
+    border: 1px solid #dbdcdf;
+    margin-bottom: 20px;
+}
+.Content .container .right-cont a
+{
+    color: #2b4d96;
+    text-decoration: none;
+    font-weight: bold;
+    float: left;
+    font-size: 16px;
+}
+.Content .container .right-cont p:last-of-type
+{
+    margin-top: 40px;
+    margin-left: 111px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+}
+/* End Right Contet */
